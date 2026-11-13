@@ -30,12 +30,12 @@ class CalculadoraServiceTest {
 
     @Test
     void deveMultiplicarPorZero() {
-        assertEquals(15, service.multiplicar(15,0));
+        assertEquals(0, service.multiplicar(15,0));
     }
 
     @Test
     void deveDividir() {
-        assertEquals(5.4, service.dividir(10,2));
+        assertEquals(5, service.dividir(10,2));
     }
 
     @Test
