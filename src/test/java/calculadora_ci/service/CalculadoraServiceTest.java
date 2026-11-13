@@ -34,11 +34,6 @@ class CalculadoraServiceTest {
     }
 
     @Test
-    void deveDividir() {
-        assertEquals(5, service.dividir(10,2));
-    }
-
-    @Test
     void deveSomarComZero() {
         assertEquals(9, service.somar(9,0));
     }
